@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h2>Who Are You</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="alertBox">
+                            
+                        </div>
+                       <form action="" id="marriageForm">
+                            <div class="form-group my-3">
+                                <label for="">Name</label>
+                                <input type="text" name="name" class="form-control">
+                                <p id="name_req"></p>
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="">Age</label>
+                                <input type="text" name="age" class="form-control">
+                                <p id="age_req"></p>
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="">Gender</label><br>
+                                <div class="gBox">
+                                    <input type="radio" name="gender" value="male"> Male
+                                    <input type="radio" name="gender" value="female"> Female
+                                </div>
+                            </div>
+                            <div class="form-group my-3">
+                                <input type="submit" name="submit" class="btn btn-primary w-100">
+                            </div>
+                       </form>
+                    </div>
+                    <div class="card-footer">
+                        <div class="fResult"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/funtion.js"></script>
+</body>
+</html>
